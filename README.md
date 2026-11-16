@@ -17,7 +17,7 @@
 
 - 🎓 Engineering degree from **IMT Mines Alès**. Twice winner of the IMT pitch contest, fellow of the Institut de l'Engagement.
 - 🏭 For eight years I ran my own industrial companies, with the P&L in my hands: product design, industrialisation, production, around fifteen subcontractors.
-- 🛠️ Today I design, build and deploy complete products on my own: business software, 3D interfaces, real-time multiplayer, computer vision.
+- 🛠️ Today I design, build and deploy complete products on my own: business and industrial software, 3D interfaces, real-time multiplayer, computer vision.
 - 🌍 French (native), English (professional), Spanish. Open to remote work and to employers abroad.
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/pablo-marin-/) · [contact@pablomarin.fr](mailto:contact@pablomarin.fr)
 
@@ -81,12 +81,34 @@ Every morning, a managed-services provider knows which client backups failed ove
 </td>
 <td width="50%" valign="top">
 
+<a href="https://github.com/brakan1337/poste-controle-qualite"><img src="assets/poste-controle-qualite.jpg" width="380" alt="Inspection station after a non-conforming part, with its X-bar R control chart"></a>
+
+**[poste-controle-qualite](https://github.com/brakan1337/poste-controle-qualite)**<br>
+Final-inspection station for a machining shop. The gauge sends its readings over a serial port, a non-conforming part locks the station until it is isolated, and an X̄-R control chart spots a drift before parts leave the tolerance.<br>
+<sub>C# · .NET 10 · WPF · MVVM · Entity Framework Core · SQL Server · xUnit</sub><br>
+<a href="https://github.com/brakan1337/poste-controle-qualite/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/brakan1337/poste-controle-qualite/actions/workflows/ci.yml/badge.svg"></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 <a href="https://tracer.tinyfungi-eco.workers.dev"><img src="assets/tracer.jpg" width="380" alt="Tracer, first-person view with trails of light"></a>
 
 **Tracer**<br>
 Real-time multiplayer FPS where every bullet leaves a walkable bridge of light. Authoritative server, bots, co-op survival mode, VR players alongside PC players.<br>
 <sub>Node.js · WebSocket · Three.js · WebXR · Cloudflare Durable Objects</sub><br>
 <sub>🔒 Private code · [Play it ↗](https://tracer.tinyfungi-eco.workers.dev)</sub>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://defi-bleu-rouge.tinyfungi-eco.workers.dev"><img src="assets/defi-bleu-rouge.jpg" width="380" alt="Blue versus Red, a two-team running challenge"></a>
+
+**[Défi Bleu contre Rouge](https://github.com/brakan1337/defi-bleu-rouge)**<br>
+A two-team running challenge for the month of November. Google sign-in, self-reported runs and Strava links; each new runner joins the team that needs it most.<br>
+<sub>JavaScript · Cloudflare Workers · D1 · Google sign-in</sub><br>
+<sub>📂 Public code · [Live ↗](https://defi-bleu-rouge.tinyfungi-eco.workers.dev)</sub>
 
 </td>
 </tr>
@@ -97,7 +119,6 @@ Real-time multiplayer FPS where every bullet leaves a walkable bridge of light. 
 - **Capusine**: a business-management serious game for business schools. Its simulation engine is pure and deterministic, kept apart from the interface: same inputs, same world for every team. *React · Hono · Cloudflare Workers · D1*
 - **Running gait analysis**: joint angles from a running video, frame by frame, computed in the browser by a pose model. The video never leaves the device. *TypeScript · MediaPipe* · [Try it ↗](https://analyse-foulee.tinyfungi-eco.workers.dev)
 - **Verzane**: team scheduling for small businesses, with positions, skills and time slots. *React · Hono · Cloudflare Pages · D1* · [verzane.pages.dev ↗](https://verzane.pages.dev)
-- **Défi Bleu contre Rouge**: a two-team running challenge with Google sign-in and Strava links. *Cloudflare Workers · D1* · [Live ↗](https://defi-bleu-rouge.tinyfungi-eco.workers.dev) · [Code](https://github.com/brakan1337/defi-bleu-rouge)
 - **Language-learning apps**: Android apps in React Native (Expo) on a home-made spaced-repetition engine. Content and progress are decoupled, so new content never erases a learner's history. Web versions: [Basque](https://brakan1337.github.io/mon-basque-web/) · [Japanese](https://brakan1337.github.io/mon-japonais-web/) · [Moroccan Arabic](https://brakan1337.github.io/mon-arabe-web/)
 - **Multi-source aggregation and scoring engine**: twelve APIs in, deduplication, weighted scoring configured in YAML, about 4,500 records a day. *Python*
 - **[prospection-scraper](https://github.com/brakan1337/prospection-scraper)**: B2B prospecting from OpenStreetMap and the SIRENE register, with published e-mails, website audit and CSV export. *Python*
@@ -105,15 +126,15 @@ Real-time multiplayer FPS where every bullet leaves a walkable bridge of light. 
 ### 🛠️ Languages and tools
 
 **Languages**<br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/langages-dark.svg"><img src="assets/langages-light.svg" height="44" alt="Java, Python, Go, TypeScript, JavaScript, Bash"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/langages-dark.svg"><img src="assets/langages-light.svg" height="44" alt="Java, Python, Go, C#, TypeScript, JavaScript, Bash"></picture>
 
 **Frameworks**<br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/frameworks-dark.svg"><img src="assets/frameworks-light.svg" height="44" alt="Spring Boot, Angular, Django, React and React Native, Node.js, Three.js"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/frameworks-dark.svg"><img src="assets/frameworks-light.svg" height="44" alt="Spring Boot, Angular, Django, .NET, React and React Native, Node.js, Three.js"></picture>
 
 **Data, infrastructure and tooling**<br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/donnees-infra-dark.svg"><img src="assets/donnees-infra-light.svg" height="44" alt="PostgreSQL, SQLite, Docker, Terraform, AWS, Cloudflare, GitHub Actions, Git, Linux"></picture>
 
-<sub>Also: LLM integration and agents · computer vision (MediaPipe) · ETL and scraping · pandas · ffmpeg · JUnit · pytest · Vitest · Playwright</sub>
+<sub>Also: SQL Server · Entity Framework Core · WPF · LLM integration and agents · computer vision (MediaPipe) · ETL and scraping · pandas · ffmpeg · JUnit · pytest · xUnit · Vitest · Playwright</sub>
 
 ### ⚙️ How I work
 
