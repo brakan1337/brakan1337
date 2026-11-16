@@ -13,7 +13,7 @@
 
 ### Hi there 👋
 
-**A rare profile: engineer, company founder for eight years, full-time developer. I know why we build, and I can build it.**
+**A rare profile: engineer, founder for eight years, full-time developer. I know why we build, and I can build it.**
 
 - 🎓 Engineering degree from **IMT Mines Alès**. Twice winner of the IMT pitch contest, fellow of the Institut de l'Engagement.
 - 🏭 For eight years I ran my own industrial companies, with the P&L in my hands: product design, industrialisation, production, around fifteen subcontractors.
@@ -37,7 +37,7 @@ The plant in 3D with the live state of every machine. Lots tracked through each 
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/villas-3d.jpg" width="380" alt="Isometric 3D map of a villa portfolio">
+<a href="assets/villas-3d.jpg"><img src="assets/villas-3d.jpg" width="380" alt="Isometric 3D map of a villa portfolio"></a>
 
 **Villa concierge CRM**<br>
 The home screen is an isometric 3D map of the villa portfolio: occupancy, arrivals, cleaning and maintenance tickets, owner statements, iCal calendar sync.<br>
@@ -94,13 +94,13 @@ Real-time multiplayer FPS where every bullet leaves a walkable bridge of light. 
 
 ### 🧩 More I've built
 
-- **Capusine**: a business-management serious game for business schools. Its simulation engine is pure and deterministic, kept apart from the interface: same inputs, same world for every team. <sub>React · Hono · Cloudflare Workers · D1</sub>
-- **Running gait analysis**: joint angles from a running video, frame by frame, computed in the browser by a pose model. The video never leaves the device. <sub>TypeScript · MediaPipe</sub> · [Try it ↗](https://analyse-foulee.tinyfungi-eco.workers.dev)
-- **Verzane**: team scheduling for small businesses, with positions, skills and time slots. <sub>React · Hono · Cloudflare Pages · D1</sub> · [verzane.pages.dev ↗](https://verzane.pages.dev)
-- **Défi Bleu contre Rouge**: a two-team running challenge with Google sign-in and Strava links. <sub>Cloudflare Workers · D1</sub> · [Live ↗](https://defi-bleu-rouge.tinyfungi-eco.workers.dev) · [Code](https://github.com/brakan1337/defi-bleu-rouge)
+- **Capusine**: a business-management serious game for business schools. Its simulation engine is pure and deterministic, kept apart from the interface: same inputs, same world for every team. *React · Hono · Cloudflare Workers · D1*
+- **Running gait analysis**: joint angles from a running video, frame by frame, computed in the browser by a pose model. The video never leaves the device. *TypeScript · MediaPipe* · [Try it ↗](https://analyse-foulee.tinyfungi-eco.workers.dev)
+- **Verzane**: team scheduling for small businesses, with positions, skills and time slots. *React · Hono · Cloudflare Pages · D1* · [verzane.pages.dev ↗](https://verzane.pages.dev)
+- **Défi Bleu contre Rouge**: a two-team running challenge with Google sign-in and Strava links. *Cloudflare Workers · D1* · [Live ↗](https://defi-bleu-rouge.tinyfungi-eco.workers.dev) · [Code](https://github.com/brakan1337/defi-bleu-rouge)
 - **Language-learning apps**: Android apps in React Native (Expo) on a home-made spaced-repetition engine. Content and progress are decoupled, so new content never erases a learner's history. Web versions: [Basque](https://brakan1337.github.io/mon-basque-web/) · [Japanese](https://brakan1337.github.io/mon-japonais-web/) · [Moroccan Arabic](https://brakan1337.github.io/mon-arabe-web/)
-- **Multi-source aggregation and scoring engine**: twelve APIs in, deduplication, weighted scoring configured in YAML, about 4,500 records a day. <sub>Python</sub>
-- **[prospection-scraper](https://github.com/brakan1337/prospection-scraper)**: B2B prospecting from OpenStreetMap and the SIRENE register, with published e-mails, website audit and CSV export. <sub>Python</sub>
+- **Multi-source aggregation and scoring engine**: twelve APIs in, deduplication, weighted scoring configured in YAML, about 4,500 records a day. *Python*
+- **[prospection-scraper](https://github.com/brakan1337/prospection-scraper)**: B2B prospecting from OpenStreetMap and the SIRENE register, with published e-mails, website audit and CSV export. *Python*
 
 ### 🛠️ Languages and tools
 
