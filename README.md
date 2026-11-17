@@ -93,6 +93,50 @@ Final-inspection station for a machining shop. The gauge sends its readings over
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://github.com/brakan1337/inscriptions-trail"><img src="assets/inscriptions-trail.jpg" width="380" alt="Race entry page with three races and their remaining places"></a>
+
+**[inscriptions-trail](https://github.com/brakan1337/inscriptions-trail)**<br>
+Online entries for a 1,150-runner trail race: quotas per race, a place held while the runner pays, a waiting list that moves on its own, bib numbers on payment, and an export for the timekeeper. Built for shared PHP hosting: no long-running process, no front-end build.<br>
+<sub>PHP 8.4 · Laravel 13 · Blade · Eloquent · MySQL · PHPUnit</sub><br>
+<a href="https://github.com/brakan1337/inscriptions-trail/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/brakan1337/inscriptions-trail/actions/workflows/ci.yml/badge.svg"></a>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/brakan1337/suivi-trail"><img src="assets/suivi-trail.jpg" width="380" alt="Safety desk listing runners past a cut-off time or without news"></a>
+
+**[suivi-trail](https://github.com/brakan1337/suivi-trail)**<br>
+Race day for the same organiser. Timing mats post every passage, spectators follow the live ranking, and the safety desk sees at once who is overdue or past a cut-off time. A process that crashes restarts on its own and replays its log.<br>
+<sub>Elixir · Phoenix LiveView · OTP · PubSub · ExUnit</sub><br>
+<a href="https://github.com/brakan1337/suivi-trail/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/brakan1337/suivi-trail/actions/workflows/ci.yml/badge.svg"></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/brakan1337/trancheur-3d"><img src="assets/trancheur-3d.jpg" width="380" alt="Four layers of the demo ring: walls, solid skins and infill"></a>
+
+**[trancheur-3d](https://github.com/brakan1337/trancheur-3d)**<br>
+A slicer for 3D printing. It reads an STL mesh, cuts it into layers, plans walls, solid skins and infill, and writes the G-code. Segments are joined by mesh edge rather than by tolerance, and the layers run in parallel on every core.<br>
+<sub>C++20 · CMake · Clipper2 · multithreading · doctest · AddressSanitizer</sub><br>
+<a href="https://github.com/brakan1337/trancheur-3d/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/brakan1337/trancheur-3d/actions/workflows/ci.yml/badge.svg"></a>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/brakan1337/passerelle-erp"><img src="assets/passerelle-erp.jpg" width="380" alt="Terminal: a nightly export processed, 32 records accepted and 8 rejected with their reasons"></a>
+
+**[passerelle-erp](https://github.com/brakan1337/passerelle-erp)**<br>
+A bridge from a 1990s ERP to a modern tool. Each night it reads the fixed-width export through the ERP's own COBOL copybook, checks every line, and writes valid records to CSV and the rest to a rejects file with the reason. Perl 5.10.1, core modules only.<br>
+<sub>Perl · COBOL copybook · CP850 · Test::More</sub><br>
+<a href="https://github.com/brakan1337/passerelle-erp/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/brakan1337/passerelle-erp/actions/workflows/ci.yml/badge.svg"></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 <a href="https://tracer.tinyfungi-eco.workers.dev"><img src="assets/tracer.jpg" width="380" alt="Tracer, first-person view with trails of light"></a>
 
 **Tracer**<br>
@@ -126,15 +170,15 @@ A two-team running challenge for the month of November. Google sign-in, self-rep
 ### 🛠️ Languages and tools
 
 **Languages**<br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/langages-dark.svg"><img src="assets/langages-light.svg" height="44" alt="Java, Python, Go, C#, TypeScript, JavaScript, Bash"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/langages-dark.svg"><img src="assets/langages-light.svg" height="44" alt="Java, Python, Go, C#, PHP, Elixir, C++, Perl, TypeScript, JavaScript, Bash"></picture>
 
 **Frameworks**<br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/frameworks-dark.svg"><img src="assets/frameworks-light.svg" height="44" alt="Spring Boot, Angular, Django, .NET, React and React Native, Node.js, Three.js"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/frameworks-dark.svg"><img src="assets/frameworks-light.svg" height="44" alt="Spring Boot, Angular, Django, .NET, Laravel, Phoenix, React and React Native, Node.js, Three.js"></picture>
 
 **Data, infrastructure and tooling**<br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/donnees-infra-dark.svg"><img src="assets/donnees-infra-light.svg" height="44" alt="PostgreSQL, SQLite, Docker, Terraform, AWS, Cloudflare, GitHub Actions, Git, Linux"></picture>
 
-<sub>Also: SQL Server · Entity Framework Core · WPF · LLM integration and agents · computer vision (MediaPipe) · ETL and scraping · pandas · ffmpeg · JUnit · pytest · xUnit · Vitest · Playwright</sub>
+<sub>Also: SQL Server · MySQL · Entity Framework Core · WPF · OTP · CMake · LLM integration and agents · computer vision (MediaPipe) · ETL and scraping · pandas · ffmpeg · JUnit · pytest · xUnit · Vitest · Playwright</sub>
 
 ### ⚙️ How I work
 
